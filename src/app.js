@@ -4,7 +4,7 @@ var Vibe = require('ui/vibe');
 
 var loadScreen = new UI.Card({
   title: 'AquaCtrl',
-  icon: 'images/aqua_ctrl.png.png',
+  icon: 'images/AquaCtrl.png',
   subtitle: 'Laden...',
   body: 'Bitte warten'
 });
@@ -36,8 +36,8 @@ ajax({url: "http://192.168.178.33/api.php", type: 'json'},
 			var feed = new UI.Card();
 			feed.title('Gefüttert?');
 			feed.action({
-				up: 'images/aqua_ctrl.png.png',
-				down: 'images/aqua_ctrl.png.png'
+				up: 'images/AquaCtrl.png',
+				down: 'images/AquaCtrl.png'
 			});
 			feed.show();
 		});

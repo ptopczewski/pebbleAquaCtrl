@@ -9,14 +9,34 @@
     "resources": {
         "media": [
             {
-                "file": "images/tick_white.png",
-                "name": "IMAGES_TICK_WHITE_PNG",
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
                 "type": "png"
             },
             {
-                "file": "images/aqua_ctrl.png.png",
-                "menuIcon": true,
-                "name": "IMAGES_AQUACTRL_PNG",
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/aqua_ctrl.png",
+                "name": "IMAGES_AQUA_CTRL_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/tick_white.png",
+                "name": "IMAGES_TICK_WHITE_PNG",
                 "type": "png"
             }
         ]
